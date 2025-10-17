@@ -28,7 +28,7 @@
 
 - id: 2
   name: "Nova Tablet 10"
-  category: "Tablet"
+  category: "Tablets"
   price: 349.99
   description: "10.2 inch HD display, 12-hour battery life, and quad-core processor. Great for entertainment."
   image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Tablet+10"
