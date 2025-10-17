@@ -1,0 +1,76 @@
+- id: 9
+  name: "Basic Talk & Text"
+  category: "Plan"
+  price: 29.99
+  description: "Unlimited talk and text with 5GB of high-speed data per month. Perfect for staying connected on a budget. Billed monthly."
+  image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Basic+Plan"
+
+- id: 10
+  name: "Freedom Plus Plan"
+  category: "Plan"
+  price: 49.99
+  description: "Get 50GB of premium high-speed data, unlimited talk & text, and mobile hotspot capabilities. Billed monthly."
+  image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Plus+Plan"
+
+- id: 11
+  name: "Unlimited Premium"
+  category: "Plan"
+  price: 79.99
+  description: "Truly unlimited premium data that never slows down. Includes international calling and streaming perks. Billed monthly."
+  image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Unlimited"
+
+- id: 1
+  name: "NewRock Pro Laptop X1"
+  category: "Computer"
+  price: 1299.99
+  description: "Ultra-thin powerful laptop with 14-inch display, 32GB RAM, and 1TB SSD. Perfect for professionals."
+  image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Laptop+X1"
+
+- id: 2
+  name: "Nova Tablet 10"
+  category: "Tablet"
+  price: 349.99
+  description: "10.2 inch HD display, 12-hour battery life, and quad-core processor. Great for entertainment."
+  image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Tablet+10"
+
+- id: 3
+  name: "RockPhone 15 Pro Max"
+  category: "Phone"
+  price: 999.00
+  description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip. Available in blue."
+  image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Phone+15"
+
+- id: 4
+  name: "2TB NVMe SSD - Red Line"
+  category: "Part"
+  price: 189.50
+  description: "Blazing fast 2TB NVMe SSD for gaming and high-performance computing. 7000MB/s read speed."
+  image: "https://placehold.co/400x300/8B5CF6/FFFFFF?text=2TB+SSD"
+
+- id: 5
+  name: "Wireless Mechanical Keyboard"
+  category: "Part"
+  price: 119.99
+  description: "Tactile brown switches with customizable red backlighting. US layout."
+  image: "https://placehold.co/400x300/F97316/FFFFFF?text=Keyboard"
+
+- id: 6
+  name: "NewRock Desktop Elite"
+  category: "Computer"
+  price: 1999.00
+  description: "High-end gaming desktop with RTX 4080 and i9 processor. Ready for 4K gaming."
+  image: "https://placehold.co/400x300/064E3B/FFFFFF?text=Desktop+Elite"
+
+- id: 7
+  name: "Budget Smart Phone SE"
+  category: "Phone"
+  price: 249.99
+  description: "Affordable 5G smartphone with great battery life and a compact design."
+  image: "https://placehold.co/400x300/EF4444/FFFFFF?text=Budget+Phone"
+
+- id: 8
+  name: "Tablet Stylus Pro"
+  category: "Part"
+  price: 49.99
+  description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+  image: "https://placehold.co/400x300/1D4ED8/FFFFFF?text=Stylus"

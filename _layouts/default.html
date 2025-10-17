@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body class="min-h-screen">
+  {% include header.html %}
+
+  <main id="app-container" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 min-h-[calc(100vh-64px)]">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script>
+    const app = {
+      view: 'home',
+      currentProductId: null,
+      filterCategory: null,
+      cart: [],
+      products: {{ site.data.products | jsonify }},
+
+      formatCurrency: (amount) => {
+        return new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD'
+        }).format(amount);
+      },
+
+      renderHome: () => {
+        const container = document.getElementById('app-container');
+        let html = `
+          <div class="nrw-bg-blue rounded-xl shadow-2xl p-6 md:p-10 mb-10 border-4 border-white">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+              <div class="text-white">
+                <h2 class="text-3xl md:text-5xl font-extrabold mb-2 nrw-text-red">NEWROCK MEGA SALE!</h2>
+                <p class="text-xl md:text-2xl font-light mb-4">Up to 40% OFF all Blue & Red branded accessories this week.</p>
+                <button onclick="app.setView('home', 'Part')" class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full text-white bg-red-600 hover:bg-red-700 transition duration-150 shadow-lg">
+                  Shop Accessories
+                </button>
+              </div>
+              <div class="hidden md:block w-32 h-32 ml-8">
+                <img src="https://placehold.co/128x128/FFFFFF/1E40AF?text=FLASH+SALE" class="rounded-full border-4 border-red-500 shadow-xl" alt="Flash Sale Icon"/>
+              </div>
+            </div>
+          </div>
+        `;
+
+        const filteredProducts = app.filterCategory 
+          ? app.products.filter(p => p.category === app.filterCategory)
+          : app.products;
+
+        if (app.filterCategory) {
+          html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">${app.filterCategory}s</h2>`;
+        } else {
+          html += `<h2 class="text-3xl font-bold text-gray-800 mb-6">Featured Products</h2>`;
+        }
+
+        if (filteredProducts.length === 0) {
+          html += `<p class="text-center text-gray-500 py-10">No products found in this category.</p>`;
+        } else {
+          html += `<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">`;
+          filteredProducts.forEach(product => {
+            html += `
+              <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
+                <div class="h-48 bg-gray-100 flex items-center justify-center p-4">
+                  <img src="${product.image}" onerror="this.onerror=null;this.src='https://placehold.co/400x300/E5E7EB/4B5563?text=NewRock';" alt="${product.name}" class="max-h-full max-w-full object-contain rounded-lg">
+                </div>
+                <div class="p-5 flex-grow flex flex-col">
+                  <span class="text-xs font-semibold uppercase text-gray-500 mb-1">${product.category}</span>
+                  <h3 class="text-lg font-bold text-gray-900 mb-2 truncate">${product.name}</h3>
+                  <p class="text-xl font-extrabold nrw-text-red mb-4">${app.formatCurrency(product.price)}${product.category === 'Plan' ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : ''}</p>
+                  <div class="mt-auto flex space-x-2">
+                    <button onclick="app.setView('details', ${product.id})" class="flex-1 px-4 py-2 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 hover:bg-gray-100 transition duration-150">Details</button>
+                    <button onclick="app.addToCart(${product.id})" class="flex-1 nrw-btn-blue text-white text-sm font-medium rounded-lg shadow-md hover:shadow-lg transition duration-150 flex items-center justify-center">
+                      <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l-1 12H6L5 9z"></path></svg>Add
+                    </button>
+                  </div>
+                </div>
+              </div>
+            `;
+          });
+          html += `</div>`;
+        }
+        container.innerHTML = html;
+      },
+
+      renderDetails: () => {
+        const container = document.getElementById('app-container');
+        const product = app.products.find(p => p.id === app.currentProductId);
+        if (!product) {
+          container.innerHTML = `<div class="p-10 text-center"><h1 class="text-4xl text-gray-800 font-bold">Product Not Found</h1><button onclick="app.setView('home')" class="mt-5 nrw-btn-blue text-white px-5 py-2 rounded-lg">Back to Store</button></div>`;
+          return;
+        }
+        container.innerHTML = `
+          <div class="bg-white rounded-xl shadow-2xl p-6 md:p-10">
+            <div class="flex flex-col lg:flex-row gap-8">
+              <div class="lg:w-1/2 bg-gray-50 rounded-lg p-6 flex items-center justify-center">
+                <img src="${product.image}" onerror="this.onerror=null;this.src='https://placehold.co/600x450/E5E7EB/4B5563?text=NewRock+Product';" alt="${product.name}" class="w-full h-auto object-contain rounded-lg max-h-96">
+              </div>
+              <div class="lg:w-1/2">
+                <span class="text-sm font-semibold uppercase text-gray-500">${product.category}</span>
+                <h1 class="text-4xl font-extrabold text-gray-900 mt-2 mb-4">${product.name}</h1>
+                <p class="text-3xl font-extrabold nrw-text-red mb-6">${app.formatCurrency(product.price)}${product.category === 'Plan' ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}</p>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Description</h3>
+                <p class="text-gray-600 mb-8 leading-relaxed">${product.description}<br><br>The ${product.name} is built to last, featuring a rugged housing, the latest chipset, and a 2-year warranty from NewRock Wireless.</p>
+                <div class="flex items-center space-x-4">
+                  <button onclick="app.addToCart(${product.id})" class="nrw-btn-blue text-white px-8 py-3 text-lg font-semibold rounded-xl shadow-md hover:shadow-lg transition duration-150 flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l-1 12H6L5 9z"></path></svg>Add to Cart
+                  </button>
+                  <button onclick="app.setView('home')" class="px-6 py-3 border border-gray-300 text-gray-700 text-lg font-semibold rounded-xl hover:bg-gray-100 transition duration-150">Back to Shopping</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      },
+
+      renderCart: () => {
+        const container = document.getElementById('app-container');
+        if (app.cart.length === 0) {
+          container.innerHTML = `
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-2xl text-center">
+              <h1 class="text-4xl font-bold nrw-text-red mb-4">Your Shopping Cart</h1>
+              <div class="text-gray-500 mb-8">
+                <svg class="w-16 h-16 mx-auto text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                <p class="text-xl font-semibold">Your cart is currently empty.</p>
+                <p class="text-md">Time to grab some cutting-edge electronics!</p>
+              </div>
+              <button onclick="app.setView('home')" class="nrw-btn-blue text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-xl transition duration-150">Continue Shopping</button>
+            </div>
+          `;
+          return;
+        }
+
+        const subtotal = app.cart.reduce((sum, item) => {
+          const product = app.products.find(p => p.id === item.id);
+          return sum + (product ? product.price * item.quantity : 0);
+        }, 0);
+        const taxRate = 0.08875;
+        const tax = subtotal * taxRate;
+        const total = subtotal + tax;
+
+        let cartItemsHtml = app.cart.map(item => {
+          const product = app.products.find(p => p.id === item.id);
+          const itemTotal = product ? product.price * item.quantity : 0;
+          return `
+            <div class="flex items-center py-4 border-b border-gray-200 last:border-b-0">
+              <div class="flex-shrink-0 w-16 h-16 mr-4">
+                <img src="${product.image}" onerror="this.onerror=null;this.src='https://placehold.co/64x64/E5E7EB/4B5563?text=Product';" class="w-full h-full object-cover rounded-lg" alt="${product.name}">
+              </div>
+              <div class="flex-grow">
+                <h3 class="text-lg font-semibold text-gray-900">${product.name}</h3>
+                <p class="text-sm text-gray-500">${product.category}</p>
+              </div>
+              <div class="flex items-center space-x-2 mx-4">
+                <button onclick="app.updateCartQuantity(${item.id}, -1)" class="w-8 h-8 rounded-full bg-gray-100 hover:bg-gray-200 text-gray-700 transition duration-150" aria-label="Decrease quantity"><span class="text-lg font-bold">-</span></button>
+                <span class="text-lg font-medium w-6 text-center">${item.quantity}</span>
+                <button onclick="app.updateCartQuantity(${item.id}, 1)" class="w-8 h-8 rounded-full nrw-bg-blue hover:bg-blue-600 text-white transition duration-150" aria-label="Increase quantity"><span class="text-lg font-bold">+</span></button>
+              </div>
+              <div class="text-right ml-4 w-28">
+                <p class="text-lg font-bold text-gray-900">${app.formatCurrency(itemTotal)}</p>
+              </div>
+              <button onclick="app.deleteFromCart(${item.id})" class="ml-4 text-red-500 hover:text-red-700 p-1 rounded-full hover:bg-red-100 transition duration-150" aria-label="Remove item">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+              </button>
+            </div>
+          `;
+        }).join('');
+
+        container.innerHTML = `
+          <div class="flex flex-col lg:flex-row gap-8">
+            <div class="lg:w-2/3 bg-white p-6 rounded-xl shadow-2xl">
+              <h1 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-4">Your Shopping Cart (${app.cart.length} Items)</h1>
+              <div class="divide-y divide-gray-100">${cartItemsHtml}</div>
+              <button onclick="app.setView('home')" class="mt-6 nrw-btn-blue text-white px-5 py-2 rounded-lg font-medium shadow-md hover:shadow-xl transition duration-150">&larr; Continue Shopping</button>
+            </div>
+            <div class="lg:w-1/3">
+              <div class="bg-gray-50 p-6 rounded-xl shadow-2xl border-t-4 border-red-500">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Order Summary</h2>
+                <div class="space-y-3">
+                  <div class="flex justify-between text-gray-700"><span>Subtotal:</span><span class="font-medium">${app.formatCurrency(subtotal)}</span></div>
+                  <div class="flex justify-between text-gray-700"><span>Tax (8.875%):</span><span class="font-medium">${app.formatCurrency(tax)}</span></div>
+                  <div class="flex justify-between pt-4 border-t border-gray-300">
+                    <span class="text-xl font-extrabold nrw-text-red">Order Total:</span>
+                    <span class="text-xl font-extrabold nrw-text-red">${app.formatCurrency(total)}</span>
+                  </div>
+                </div>
+                <button onclick="console.log('Checkout clicked! Total: \$${total.toFixed(2)}'); alert('Thank you for shopping at NewRock Wireless! (Simulated Checkout)');"
+                  class="w-full mt-6 nrw-btn-blue text-white text-lg font-semibold py-3 rounded-xl shadow-lg hover:bg-blue-600 transition duration-150">
+                  Proceed to Checkout
+                </button>
+              </div>
+              <div class="mt-8 p-4 nrw-bg-red rounded-xl shadow-xl text-center text-white">
+                <p class="text-lg font-bold">NewRock Credit Card</p>
+                <p class="text-sm font-light">Get 15% off your first purchase! Apply now.</p>
+              </div>
+            </div>
+          </div>
+        `;
+      },
+
+      setView: (newView, param = null) => {
+        app.view = newView;
+        app.currentProductId = null;
+        app.filterCategory = null;
+        if (newView === 'details' && typeof param === 'number') {
+          app.currentProductId = param;
+        } else if (newView === 'home' && typeof param === 'string') {
+          app.filterCategory = param;
+        }
+        app.render();
+      },
+
+      addToCart: (productId) => {
+        const existingItem = app.cart.find(item => item.id === productId);
+        if (existingItem) {
+          existingItem.quantity += 1;
+        } else {
+          app.cart.push({ id: productId, quantity: 1 });
+        }
+        const product = app.products.find(p => p.id === productId)?.name || 'Item';
+        app.showTemporaryMessage(`Added 1x ${product} to cart!`);
+        app.updateCartCount();
+        if (app.view === 'cart') app.render();
+      },
+
+      updateCartQuantity: (productId, delta) => {
+        const itemIndex = app.cart.findIndex(item => item.id === productId);
+        if (itemIndex > -1) {
+          const newQuantity = app.cart[itemIndex].quantity + delta;
+          if (newQuantity > 0) {
+            app.cart[itemIndex].quantity = newQuantity;
+          } else {
+            app.deleteFromCart(productId);
+          }
+        }
+        app.updateCartCount();
+        app.render();
+      },
+
+      deleteFromCart: (productId) => {
+        const product = app.products.find(p => p.id === productId)?.name || 'Item';
+        app.cart = app.cart.filter(item => item.id !== productId);
+        app.showTemporaryMessage(`${product} removed from cart.`, 'bg-red-500');
+        app.updateCartCount();
+        app.render();
+      },
+
+      updateCartCount: () => {
+        const count = app.cart.reduce((sum, item) => sum + item.quantity, 0);
+        document.getElementById('cartCount').textContent = count;
+      },
+
+      showTemporaryMessage: (message, bgColor = 'bg-green-500') => {
+        let msgEl = document.getElementById('toast-message');
+        if (!msgEl) {
+          msgEl = document.createElement('div');
+          msgEl.id = 'toast-message';
+          msgEl.className = 'fixed bottom-5 left-1/2 transform -translate-x-1/2 p-4 rounded-lg text-white shadow-xl transition-opacity duration-300 opacity-0 z-[100]';
+          document.body.appendChild(msgEl);
+        }
+        msgEl.textContent = message;
+        msgEl.className = `fixed bottom-5 left-1/2 transform -translate-x-1/2 p-4 rounded-lg text-white shadow-xl transition-opacity duration-300 ${bgColor} opacity-100 z-[100]`;
+        clearTimeout(app.messageTimeout);
+        app.messageTimeout = setTimeout(() => {
+          msgEl.classList.remove('opacity-100');
+          msgEl.classList.add('opacity-0');
+        }, 3000);
+      },
+
+      render: () => {
+        app.updateCartCount();
+        if (app.view === 'home') app.renderHome();
+        else if (app.view === 'cart') app.renderCart();
+        else if (app.view === 'details') app.renderDetails();
+      }
+    };
+
+    window.onload = () => {
+      app.render();
+    };
+  </script>
+</body>
+</html>
