@@ -42,14 +42,14 @@
 
 - id: 4
   name: "2TB NVMe SSD - Red Line"
-  category: "Part"
+  category: "Wifi"
   price: 189.50
   description: "Blazing fast 2TB NVMe SSD for gaming and high-performance computing. 7000MB/s read speed."
   image: "https://placehold.co/400x300/8B5CF6/FFFFFF?text=2TB+SSD"
 
 - id: 5
   name: "Wireless Mechanical Keyboard"
-  category: "Part"
+  category: "Wifi"
   price: 119.99
   description: "Tactile brown switches with customizable red backlighting. US layout."
   image: "https://placehold.co/400x300/F97316/FFFFFF?text=Keyboard"
@@ -70,7 +70,7 @@
 
 - id: 8
   name: "Tablet Stylus Pro"
-  category: "Part"
+  category: "Wifi"
   price: 49.99
   description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
   image: "https://placehold.co/400x300/1D4ED8/FFFFFF?text=Stylus"
