@@ -1,20 +1,20 @@
 - id: 9
   name: "Basic Talk & Text"
-  category: "Plan"
+  category: "Plans"
   price: 29.99
   description: "Unlimited talk and text with 5GB of high-speed data per month. Perfect for staying connected on a budget. Billed monthly."
   image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Basic+Plan"
 
 - id: 10
   name: "Freedom Plus Plan"
-  category: "Plan"
+  category: "Plans"
   price: 49.99
   description: "Get 50GB of premium high-speed data, unlimited talk & text, and mobile hotspot capabilities. Billed monthly."
   image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Plus+Plan"
 
 - id: 11
   name: "Unlimited Premium"
-  category: "Plan"
+  category: "Plans"
   price: 79.99
   description: "Truly unlimited premium data that never slows down. Includes international calling and streaming perks. Billed monthly."
   image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Unlimited"
