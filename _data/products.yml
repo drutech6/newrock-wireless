@@ -21,7 +21,7 @@
 
 - id: 1
   name: "NewRock Pro Laptop X1"
-  category: "Computer"
+  category: "Internet Service"
   price: 1299.99
   description: "Ultra-thin powerful laptop with 14-inch display, 32GB RAM, and 1TB SSD. Perfect for professionals."
   image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Laptop+X1"
@@ -56,7 +56,7 @@
 
 - id: 6
   name: "NewRock Desktop Elite"
-  category: "Computer"
+  category: "Internet Service"
   price: 1999.00
   description: "High-end gaming desktop with RTX 4080 and i9 processor. Ready for 4K gaming."
   image: "https://placehold.co/400x300/064E3B/FFFFFF?text=Desktop+Elite"
