@@ -35,7 +35,7 @@
 
 - id: 3
   name: "RockPhone 15 Pro Max"
-  category: "Phone"
+  category: "Phones"
   price: 999.00
   description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip. Available in blue."
   image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Phone+15"
@@ -63,7 +63,7 @@
 
 - id: 7
   name: "Budget Smart Phone SE"
-  category: "Phone"
+  category: "Phones"
   price: 249.99
   description: "Affordable 5G smartphone with great battery life and a compact design."
   image: "https://placehold.co/400x300/EF4444/FFFFFF?text=Budget+Phone"
