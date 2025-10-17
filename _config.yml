@@ -4,6 +4,6 @@ baseurl: "/newrock-wireless"
 
 defaults:
   - scope:
-      path: "https://drutech6.github.io/newrock-wireless/_layouts/"
+      path: "_layouts/default.html"
     values:
       layout: "default"
