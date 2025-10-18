@@ -66,7 +66,7 @@
   category: "Phone"
   price: 249.99
   description: "Processor: MediaTek Helio G50 octa-core chipset RAM and storage: 3GB RAM and 64GB of internal storage. The storage is expandable via a microSDXC card. Display: A 6.67-inch IPS LCD with a 90Hz refresh rate and a resolution of 720 x 1600 pixels. Cameras: 13MP main rear camera with phase detection autofocus (PDAF) and a dual LED flash. The front-facing camera is 8MP and also has a flash. Battery: A 5,000mAh battery that supports 15W fast charging via a USB Type-C port. Operating system: Android 14 (Go edition) with Tecno's HiOS 14. Other features: Dual SIM support, IPX4 water resistance, rear-mounted fingerprint sensor, and facial recognition for security. "
-  image: "https://placehold.co/400x300/EF4444/FFFFFF?text=Budget+Phone"
+  image: "https://github.com/drutech6/newrock-wireless/blob/main/images/tecno_spark_go_1s_black__76702.jpg?raw=true"
 
 - id: 8
   name: "Tablet Stylus Pro"
