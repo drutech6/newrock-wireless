@@ -42,14 +42,14 @@
   image: "images/Samsung Galaxy S25 128GB 5G Unlocked by Samsung, Dual Sim New Sealed"
 
 - id: 4
-  name: "Xnet-Wifi.jpeg"
+  name: "Xnet-Wifi"
   category: "Wifi"
   price: 189.50
   description: "Blazing fast 2TB NVMe SSD for gaming and high-performance computing. 7000MB/s read speed."
   image: "images/Xnet-Wifi.jpeg"
 
 - id: 5
-  name: "Xnet-Wifi-.jpeg"
+  name: "Xnet-Wifi-"
   category: "Wifi"
   price: 119.99
   description: "Tactile brown switches with customizable red backlighting. US layout."
@@ -70,7 +70,7 @@
   image: "https://github.com/drutech6/newrock-wireless/blob/main/images/tecno_spark_go_1s_black__76702.jpg?raw=true"
 
 - id: 8
-  name: "Xnet-Wifi--.jpeg"
+  name: "Xnet-Wifi--"
   category: "Wifi"
   price: 49.99
   description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
