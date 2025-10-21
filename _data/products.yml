@@ -93,3 +93,24 @@
       color: "Silver"
       price: 1049.00  # maybe premium color costs more
       image: "images/silverphone.webp"
+
+    - id: 15
+      name: "images/Xnet-Wifi--.png"
+      category: "Wifi"
+      price: 49.99
+      description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+      image: "images/Xnet-Wifi--.png"
+
+    - id: 16
+      name: "images/Xnet-Wifi-"
+      category: "Wifi"
+      price: 49.99
+      description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+      image: "images/Xnet-Wifi-.png"
+
+    - id: 15
+      name: "images/Xnet-Wifi"
+      category: "Wifi"
+      price: 49.99
+      description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+      image: "images/Xnet-Wifi.png"   
