@@ -25,7 +25,7 @@
 - id: 1
   name: "Verizon Home Internet 300 Mbps"
   category: "Internet Service"
-  price: 34.99/mo
+  price: 34.99
   description: " Up to 300 Mbps speeds Download and upload speeds of up to 300 Mbps Availability varies. Wired speeds advertised. Wireless speeds may vary due to device limits, multiple users, network & other factors. See Verizon.com/yourspeed for more info. Router included at no additional cost State-of-the art router featuring the latest Wi-Fi generation, Wi-Fi 6E, that provides more spectrum for increased speeds, better coverage, lower latency, built-in security, parental controls and more. Verizon owns the router included with your plan. If you choose to disconnect service, you must return equipment within 30 days, or you'll incur charges. 3-year price lock guarantee** So you don’t need to worry about unexpected price hikes. **For new and existing myHome customers. Applies only to the then-current base monthly rate exclusive of any other setup and additional equipment charges, discounts or promotions, plan perk and any other third-party services. ."
   image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Laptop+X1"
 
