@@ -1,0 +1,9 @@
+title: NewRock Wireless | Premium Electronics
+url: "https://drutech6.github.io"
+baseurl: "/newrock-wireless"
+
+defaults:
+  - scope:
+      path: "_layouts/default.html"
+    values:
+      layout: "default"

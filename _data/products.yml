@@ -1,0 +1,98 @@
+- id: 9
+  name: "Basic Talk & Text"
+  category: "Plan"
+  price: 29.99
+  description: "Unlimited talk and text with 5GB of high-speed data per month. Perfect for staying connected on a budget. Billed monthly."
+  image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Basic+Plan"
+
+- id: 10
+  name: "Freedom Plus Plan"
+  category: "Plan"
+  price: 49.99
+  description: "Get 50GB of premium high-speed data, unlimited talk & text, and mobile hotspot capabilities. Billed monthly."
+  image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Plus+Plan"
+
+- id: 11
+  name: "Unlimited Premium"
+  category: "Plan"
+  price: 79.99
+  description: "Truly unlimited premium data that never slows down. Includes international calling and streaming perks. Billed monthly."
+  image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Unlimited"
+
+- id: 1
+  name: "NewRock Pro Laptop X1"
+  category: "Internet Service"
+  price: 1299.99
+  description: "Ultra-thin powerful laptop with 14-inch display, 32GB RAM, and 1TB SSD. Perfect for professionals."
+  image: "https://placehold.co/400x300/1E40AF/FFFFFF?text=Laptop+X1"
+
+- id: 2
+  name: "Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed"
+  category: "Tablet"
+  price: 249.99
+  description: "New Sealed 4GB of Ram Cellular Unlocked 8.7 inches Android 13 with One UI 5.1 Rear camera is 8MP Front Camera is 2MP 5100 mAh Battery."
+  image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed"
+
+- id: 3
+  name: "Samsung Galaxy S25 128GB 5G Unlocked by Samsung, Dual Sim New Sealed"
+  category: "Phone"
+  price: 799.00
+  description: "The following features are available for the Samsung Galaxy S25 : Design: A durable build with an Armor Aluminum frame and Corning Gorilla Glass Victus 2 on both the front and back. Display: A 6.2-inch Dynamic LTPO AMOLED 2X display with a variable 120Hz refresh rate and a peak brightness of 2,600 nits. Performance: Equipped with the Qualcomm Snapdragon 8 Elite for Galaxy processor and 12GB of RAM. Camera: A triple rear camera system featuring a 50MP main lens, a 12MP ultrawide lens, and a 10MP telephoto lens with 3x optical zoom. The front camera is 12MP. AI capabilities: Features a suite of Galaxy AI tools, including text summarization, a writing assistant, and image editing features. Software: Runs on Android 15 with One UI 7 out of the box and is promised 7 years of OS updates. Battery: A 4,000 mAh battery that supports 25W wired fast charging and 15W wireless charging. Durability: Offers an IP68 rating for water and dust resistance. Audio: Features stereo speakers.
+"
+  image: "images/Samsung Galaxy S25 128GB 5G Unlocked by Samsung, Dual Sim New Sealed"
+
+- id: 4
+  name: "2TB NVMe SSD - Red Line"
+  category: "Wifi"
+  price: 189.50
+  description: "Blazing fast 2TB NVMe SSD for gaming and high-performance computing. 7000MB/s read speed."
+  image: "https://placehold.co/400x300/8B5CF6/FFFFFF?text=2TB+SSD"
+
+- id: 5
+  name: "Wireless Mechanical Keyboard"
+  category: "Wifi"
+  price: 119.99
+  description: "Tactile brown switches with customizable red backlighting. US layout."
+  image: "https://placehold.co/400x300/F97316/FFFFFF?text=Keyboard"
+
+- id: 6
+  name: "NewRock Desktop Elite"
+  category: "Internet Service"
+  price: 1999.00
+  description: "High-end gaming desktop with RTX 4080 and i9 processor. Ready for 4K gaming."
+  image: "https://placehold.co/400x300/064E3B/FFFFFF?text=Desktop+Elite"
+
+- id: 7
+  name: "Tecno Spark Go 1S , 64GB , Dual Sim , 6.67-inch , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 249.99
+  description: "Processor: MediaTek Helio G50 octa-core chipset RAM and storage: 3GB RAM and 64GB of internal storage. The storage is expandable via a microSDXC card. Display: A 6.67-inch IPS LCD with a 90Hz refresh rate and a resolution of 720 x 1600 pixels. Cameras: 13MP main rear camera with phase detection autofocus (PDAF) and a dual LED flash. The front-facing camera is 8MP and also has a flash. Battery: A 5,000mAh battery that supports 15W fast charging via a USB Type-C port. Operating system: Android 14 (Go edition) with Tecno's HiOS 14. Other features: Dual SIM support, IPX4 water resistance, rear-mounted fingerprint sensor, and facial recognition for security. "
+  image: "https://github.com/drutech6/newrock-wireless/blob/main/images/tecno_spark_go_1s_black__76702.jpg?raw=true"
+
+- id: 8
+  name: "Tablet Stylus Pro"
+  category: "Wifi"
+  price: 49.99
+  description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+  image: "https://placehold.co/400x300/1D4ED8/FFFFFF?text=Stylus"
+
+- id: 13
+  name: "RockPhone 15 Pro Max"
+  category: "Phone"
+  description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
+  variants:
+    - id: 301
+      color: "Blue"
+      price: 999.00
+      inStock: true/false
+      image: "images/bluephone.jpeg"
+    - id: 302
+      color: "Black"
+      price: 999.00
+      inStock: true/false
+      image: "images/blackphone.webp"
+    - id: 303
+      color: "Silver"
+      price: 1049.00  # maybe premium color costs more
+      inStock: true/false
+      image: "images/silverphone.webp"
