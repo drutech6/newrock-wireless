@@ -42,17 +42,17 @@
   image: "images/Samsung Galaxy S25 128GB 5G Unlocked by Samsung, Dual Sim New Sealed"
 
 - id: 4
-  name: "Xnet-Wifi"
+  name: "XNET WIFI Data Plans 25GB"
   category: "Wifi"
-  price: 189.50
-  description: "Blazing fast 2TB NVMe SSD for gaming and high-performance computing. 7000MB/s read speed."
+  price: 65.00
+  description: "ata Plans Get reliable high-speed data wherever you need it — at home, on the road, or off the grid. 4G Data Plans 25 GB Great for travel or backup internet As Low As: $65 $52/mo for prepayment of 12 months Pricing shown is based on advance annual payment. “As low as” price reflects a 20% discount for prepayment of 12 months. Standard monthly price is $65 when billed month-to-month. 25 GB of high-speed LTE data Cancel anytime - no contracts Pay monthly, or save with upfront payments Save 5% when you pay for 3 months in advance Save 10% when you pay for 6 months in advance Save 20% when you pay for 12 months in advance "
   image: "images/Xnet-Wifi.jpeg"
 
 - id: 5
-  name: "Xnet-Wifi-"
+  name: "XNET WIFI Xplorer Hotspot 50 GB X Data Plan"
   category: "Wifi"
-  price: 119.99
-  description: "Tactile brown switches with customizable red backlighting. US layout."
+  price: 75.00
+  description: "Xplorer Hotspot The Xplorer Hotspot is your pocket-sized powerhouse for fast, reliable internet anywhere. With LTE Cat 6 speeds, dual-band Wi-Fi, and support for up to 16 devices, it’s perfect for travel, work, or staying connected off the grid. Want to receive your device pre-activated? Click here to purchase a Device + Data Plan bundle $199.00 Original price was: $199.00.$149.00 Current price is: $149.00. 50 GB X Data Plan Data Plan * Clear 50 GB of High-Speed Data $75.00 / month Activation Activation Fee To activate your vSIM and facilitate this service, a one-time Activation Fee is required. This fee is necessary to cover the costs involved in initiating the activation process with the carriers, generating usage reports, and maintaining the necessary infrastructure for continued connectivity. $30.00 $229.00 $179.00 one time, and $75.00 / month."
   image: "images/Xnet-Wifi-.jpeg"
 
 - id: 6
@@ -70,10 +70,11 @@
   image: "https://github.com/drutech6/newrock-wireless/blob/main/images/tecno_spark_go_1s_black__76702.jpg?raw=true"
 
 - id: 8
-  name: "Xnet-Wifi--"
+  name: "XNET WIFI Xplorer Hotspot 100GB X Data Plan"
   category: "Wifi"
-  price: 49.99
-  description: "High-precision stylus for NewRock and Nova tablets. Magnetic attachment."
+  price: 85.00
+  description: "Xplorer Hotspot The Xplorer Hotspot is your pocket-sized powerhouse for fast, reliable internet anywhere. With LTE Cat 6 speeds, dual-band Wi-Fi, and support for up to 16 devices, it’s perfect for travel, work, or staying connected off the grid. 💵 Flexible payment options available at checkout with PayPal Buy Now, Pay Later Want to receive your device pre-activated? Click here to purchase a Device + Data Plan bundle $199.00 Original price was: $199.00.$149.00Current price is: $149.00. 100 GB Pay-As-You-Go Plan 💸 One-time payment. No auto-renewal. Data * Duration * Clear Get 100 GB of high-speed data for 1 Month. One-time payment, no auto-renewal. PayPal & Buy Now, Pay Later available. $85.00 $284.00 $234.00 .
+"
   image: "images/Xnet-Wifi--.jpeg"
 
 - id: 13
