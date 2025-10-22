@@ -90,13 +90,13 @@
   #-     price: 999.00
   #-     inStock: true/false
   #-    image: "images/bluephone.jpeg"
-    - id: 302
-      color: "Black"
-      price: 999.00
-      inStock: true/false
-      image: "images/blackphone.webp"
-    - id: 303
-      color: "Silver"
-      price: 1049.00  # maybe premium color costs more
-      inStock: true/false
-      image: "images/silverphone.webp"
+  #-   - id: 302
+  #-     color: "Black"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-     image: "images/blackphone.webp"
+  #-   - id: 303
+  #-     color: "Silver"
+  #-    price: 1049.00  # maybe premium color costs more
+  #-     inStock: true/false
+  #-     image: "images/silverphone.webp"
