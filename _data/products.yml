@@ -80,7 +80,7 @@
 "
   image: "images/Xnet-Wifi--.jpeg"
 
-- id: 13
+#- id: 13
   name: "RockPhone 15 Pro Max"
   category: "Phone"
   description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
