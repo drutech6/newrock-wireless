@@ -1,10 +1,9 @@
-#- id: 10
-#  name: "Consumer Cellular Plan"
-#  category: "Plan"
+#- id: 5       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+#  name: "PRODUCT NAME HERE"
+#  category: "CATAGORY HERE"
 #  price: 45.00
-#  description: "Unlimited Talk/Txt/20GB Data 1 Line Included Unlimited Data Unlimited Talk & Text $45/Month $45 due monthly . .
-#"
-#  image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Plus+Plan"
+#  description: "DESCRIPTION HERE"
+#  image: "URL OR PATH TO PRODUCT IMAGE HERE"
 
 - id: 1
   name: "Verizon Home Internet 300 Mbps"
@@ -86,6 +85,13 @@
   description: "Due monthly* $133.93 Due today $142.00 *Plus taxes and fees.See disclosures Your services will auto-renew monthly at then-current rates (less any discounts or promotions) unless you cancel by visiting att.com/cancel-info. Price details Due monthly $133.93 Apple iPhone 17 Pro Max - 1TB $44.45 Price for 36 mos. at 0% APR ONLINE ONLY: You will get an additional $200 in monthly bill credits ($5.56/mo. for 36 months) with new voice on elig. unlimited plan (speed restr's apply). Credits start within 3 bills. AT&T Unlimited Premium® PL plan See discounts $85.99 AT&T Administrative/Regulatory Cost Recovery Fee $3.49 Government taxes and additional AT&T fees extra. See details Due only on first bill $0.00 Activation fee $0.00 Due today $142.00 Next-day shipping fee FREE Apple iPhone 17 Pro Max - Deep Blue - 1TB Estimated device sales tax $142.00 Savings & promotions AutoPay and paperless billing discount . Billed monthly.
 "
   image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Unlimited"
+
+- id: 12       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "PRODUCT NAME HERE"
+  category: "Phone"
+  price: 111222.00
+  description: "DESCRIPTION HERE"
+  image:  "images/silverphone.webp"
 
 #- id: 13
   #- name: "RockPhone 15 Pro Max"
