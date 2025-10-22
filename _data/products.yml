@@ -5,6 +5,27 @@
 #  description: "DESCRIPTION HERE"
 #  image: "URL OR PATH TO PRODUCT IMAGE HERE"
 
+#- id: 13    # This entry is just a template for varients below (color picker)
+  #- name: "RockPhone 15 Pro Max"
+  #- category: "Phone"
+  #- description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
+  #- variants:
+  #-   - id: 301
+  #-     color: "Blue"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-    image: "images/bluephone.jpeg"
+  #-   - id: 302
+  #-     color: "Black"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-     image: "images/blackphone.webp"
+  #-   - id: 303
+  #-     color: "Silver"
+  #-    price: 1049.00  # maybe premium color costs more
+  #-     inStock: true/false
+  #-     image: "images/silverphone.webp"
+
 - id: 1
   name: "Verizon Home Internet 300 Mbps"
   category: "Internet Service"
@@ -92,24 +113,3 @@
   price: 111222.00
   description: "DESCRIPTION HERE"
   image:  "images/silverphone.webp"
-
-#- id: 13
-  #- name: "RockPhone 15 Pro Max"
-  #- category: "Phone"
-  #- description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
-  #- variants:
-  #-   - id: 301
-  #-     color: "Blue"
-  #-     price: 999.00
-  #-     inStock: true/false
-  #-    image: "images/bluephone.jpeg"
-  #-   - id: 302
-  #-     color: "Black"
-  #-     price: 999.00
-  #-     inStock: true/false
-  #-     image: "images/blackphone.webp"
-  #-   - id: 303
-  #-     color: "Silver"
-  #-    price: 1049.00  # maybe premium color costs more
-  #-     inStock: true/false
-  #-     image: "images/silverphone.webp"
