@@ -80,6 +80,14 @@
 "
   image: "images/Xnet-Wifi--.jpeg"
 
+- id: 10
+  name: "Consumer Cellular Plan"
+  category: "Plan"
+  price: 45.00
+  description: "Unlimited Talk/Txt/20GB Data 1 Line Included Unlimited Data Unlimited Talk & Text $45/Month $45 due monthly . .
+"
+  image: "https://placehold.co/400x300/DC2626/FFFFFF?text=Plus+Plan"
+
 #- id: 13
   #- name: "RockPhone 15 Pro Max"
   #- category: "Phone"
