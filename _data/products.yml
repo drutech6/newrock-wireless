@@ -84,12 +84,12 @@
   #- name: "RockPhone 15 Pro Max"
   #- category: "Phone"
   #- description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
-  variants:
-    - id: 301
-      color: "Blue"
-      price: 999.00
-      inStock: true/false
-      image: "images/bluephone.jpeg"
+  #- variants:
+  #-   - id: 301
+  #-     color: "Blue"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-    image: "images/bluephone.jpeg"
     - id: 302
       color: "Black"
       price: 999.00
