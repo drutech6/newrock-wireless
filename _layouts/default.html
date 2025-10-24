@@ -97,7 +97,7 @@ const app = {
             <div class="p-5 flex-grow flex flex-col">
               <span class="text-xs font-semibold uppercase text-gray-500 mb-1">${product.category}</span>
               <h3 class="text-lg font-bold text-gray-900 mb-2 truncate">${product.name}</h3>
-              <p class="text-xl font-extrabold nrw-text-red mb-4">${app.formatCurrency(product.price)}${product.category === 'Plan' ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : ''}</p>
+              <p class="text-xl font-extrabold nrw-text-red mb-4">${app.formatCurrency(product.price)}${['Plan', 'Internet Service', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : ''}</p>
               <div class="mt-auto flex space-x-2">
                 <button onclick="app.setView('details', ${product.id})" class="flex-1 px-4 py-2 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 hover:bg-gray-100 transition duration-150">Details</button>
                 <button onclick="app.addToCart(${product.hasVariants ? product.baseProduct.variants[0].id : product.id})" class="flex-1 nrw-btn-blue text-white text-sm font-medium rounded-lg shadow-md hover:shadow-lg transition duration-150 flex items-center justify-center">
@@ -163,7 +163,7 @@ const app = {
             <span class="text-sm font-semibold uppercase text-gray-500">${baseProduct.category}</span>
             <h1 class="text-4xl font-extrabold text-gray-900 mt-2 mb-2">${baseProduct.name}</h1>
             <p id="product-price" class="text-3xl font-extrabold nrw-text-red mb-4">
-              ${app.formatCurrency(selectedVariant.price)}${baseProduct.category === 'Plan' ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}
+              ${app.formatCurrency(selectedVariant.price)}${['Plan', 'Internet Service', 'WiFi'].includes(baseProduct.category) ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}
             </p>
             ${swatchesHtml}
             <h3 class="text-xl font-semibold text-gray-800 mb-2">Description</h3>
