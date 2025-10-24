@@ -283,7 +283,7 @@ const app = {
 
     const priceEl = document.querySelector('#product-price');
     if (priceEl) {
-      priceEl.innerHTML = `${app.formatCurrency(variant.price)}${baseProduct.category === 'Plan' ? '<span class="text-lg text-gray-500 font-normal">/month</span>' : ''}`;
+      priceEl.innerHTML = `${app.formatCurrency(product.price)}${['Plan', 'Internet Service', 'WiFi'].includes(product.category) ? '<span class="text-sm text-gray-500 font-normal">/mo</span>' : ''}`;
     }
 
     const addToCartBtn = document.querySelector('#add-to-cart-btn');
