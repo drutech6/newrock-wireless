@@ -131,5 +131,5 @@
   -   - id: 303
   -     color: "Silver"
   -    price: 1049.00  # maybe premium color costs more
-  #-     inStock: true/false
-  #-     image: "images/silverphone.webp"
+  -     inStock: true/false
+  -     image: "images/silverphone.webp"
