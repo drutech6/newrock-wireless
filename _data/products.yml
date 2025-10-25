@@ -106,14 +106,14 @@
 "
   image: "https://placehold.co/400x300/3B82F6/FFFFFF?text=Unlimited"
 
-- id: 12       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+- id: 12
   name: "ZTE Nubia Focus Pro, 6.7inch , 5G LTE ,256GB , Unlocked , New , Sealed"
   category: "Phone"
   price: 339.99
   description: "Here is a detailed breakdown of the specifications for the nubia Focus Pro 5G, according to ZTE's official website and sources like GSMArena. Dimensions: 166 x 76.1 x 8.5 mm. Weight: 206 g. Display: 6.72-inch IPS LCD with a 120Hz refresh rate and 1080 x 2400 FHD+ resolution. Processor: Unisoc T760 (6nm). Memory and storage: 8GB of LPDDR4X RAM with up to 12GB of additional dynamic RAM, and 256GB of UFS 3.1 storage. Rear cameras: Main: 108MP with f/1.7 aperture, Phase Detection Autofocus (PDAF), and Optical Image Stabilization (OIS). Ultrawide: 5MP. Depth: 2MP. Front camera: 32MP. Battery: 5,000mAh non-removable. Charging: 33W wired fast charging. Operating system: Launched with Android 13 and MyOS 13. Connectivity: 5G, Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.2, and NFC. Ports: USB Type-C, but no 3.5mm headphone jack. Additional features: Camera controls: A physical sliding shortcut key for quick access to camera functions and a capacitive capture button. Live Island: Interactive notification area for important alerts. Biometrics: Side-mounted fingerprint sensor."
   image:  "images/silverphone.webp"
 
-- id: 13    # This entry is just a template for varients below (color picker)
+- id: 13
   - name: "RockPhone 15 Pro Max"
   - category: "Phone"
   - description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
@@ -121,15 +121,12 @@
   -   - id: 301
   -     color: "Blue"
   -     price: 999.00
-  -     inStock: true/false
-  -    image: "images/bluephone2.jpg"
+  -     image: "images/bluephone2.jpg"
   -   - id: 302
   -     color: "Black"
   -     price: 999.00
-  -     inStock: true/false
   -     image: "images/blackphone.webp"
   -   - id: 303
   -     color: "Silver"
-  -    price: 1049.00  # maybe premium color costs more
-  -     inStock: true/false
+  -     price: 1049.00
   -     image: "images/silverphone.webp"
