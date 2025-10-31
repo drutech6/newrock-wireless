@@ -419,3 +419,16 @@ Battery: 4000mAh battery.
 Cameras: 5MP rear camera and a 2MP front camera.
 Accessories: Often bundled with a protective silicone case and screen protector"
   image: "images/sky_elite_oxtax_tab_wtihout_case__97220.jpg"
+
+- id: 28      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed"
+  category: "Tablet"
+  price: 249.95
+  description: "Silver. 4GB of Ram
+  Unlocked
+  8.7 inches
+  Android 13 with One UI 5.1
+  Rear camera is 8MP
+  Front Camera is 2MP
+  5100 mAh Battery"
+  image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed.jpg"
