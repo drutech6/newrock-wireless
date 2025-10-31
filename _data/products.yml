@@ -316,3 +316,129 @@ builds on its predecessor with a few notable improvements, including enhanced co
   Storage: Includes a microSD card slot for expandable storage (often up to 8GB).
   Multimedia: Features a basic VGA camera, Bluetooth connectivity, and GPRS/WAP support"
   image: "images/71mNOZ4dT5L-_AC_SL1500___30335.jpg"
+
+- id: 24      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Orbic Myra , 5G , 64GB ,Unlocked , New , Sealed"
+  category: "Phone"
+  price: 199.95
+  description: "Black. 5G smartphone: Features a larger 6.78” screen and fast speeds.
+Triple rear camera: Includes a 48MP main camera, 8MP, and 2MP cameras.
+16MP front camera: Ideal for selfies and video calls.
+All-day battery: 5000mAh with Quick Charge 3.0 for extended use and fast charging.
+Durable design: Metallic finish and scratch-resistant 2D glass screen.
+
+Specifications:
+
+Display: 6.78” HD+ TFT LCD, 20:9 aspect ratio, scratch-resistant glass.
+Network: 4G and 5G support.
+Battery: 5000mAh, non-removable, Quick Charge 3.0.
+Connectivity: Wi-Fi (2.4GHz and 5GHz), Bluetooth 5.0.
+Camera:
+Main: 48MP + 8MP + 2MP with flash.
+Front: 16MP.
+Speed & Power: Qualcomm Snapdragon® 750G.
+Memory: 6GB RAM, 64GB internal storage, Micro SD support up to 512GB."
+  image: "images/orbic_myra_5g__43224.jpg"
+
+
+- id: 25      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Orbic Tabet 10R , 5G , 128GB , WIFI , New , Sealed"
+  category: "Tablet"
+  price: 219.95
+  description: "Black. The Orbic TAB10R 5G UW is a 10-inch ruggedized tablet designed for both everyday use and demanding environments
+
+    . It features 5G Ultra Wideband connectivity, primarily through Verizon. 
+    Here are some of its key features:
+        Durability: The TAB10R 5G UW is built to MIL-810 and IP65 standards, making it resistant to drops, bumps, water, and other environmental factors.
+        Connectivity: It supports Verizon’s 5G Ultra Wideband (including C-band and mmWave), and also has 4G and 3G capabilities.
+        Performance: The tablet is powered by a Qualcomm® Snapdragon™ 480 5G Octa-core 2.4GHz processor, coupled with 6GB of RAM and 128GB of internal storage (expandable up to 1TB with a Micro SD card).
+        Battery: It includes a 6000 mAh battery with Quick Charge 3.0 technology for faster recharging.
+        Display: The 10-inch HD TFT display is scratch-resistant and supports stylus input.
+        Operating System: It runs on Android 12, with ongoing security and OS updates.
+        Cameras: The tablet has an 8MP front-facing camera and a 13MP rear camera with flash. 
+
+    User Experience
+    Reviews of the Orbic TAB10R 5G UW (and the related Orbic Speed 5G hotspot) suggest a mixed user experience:
+        Positive: Some users praise the fast 5G speeds, portability, and ease of setup. It’s seen as a reliable solution for those who need constant high-speed internet on the go.
+        Negative: Other users report issues with battery life, random shutdowns, and connectivity problems, particularly in areas with competing Wi-Fi 6 devices. There have also been complaints about faulty batteries and difficulty obtaining replacements"
+  image: "images/Tab10_new_2520x.jpg"
+
+
+- id: 26       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Logic Z1L Flip Phone , 4G , Dual Sim , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 139.95
+  description: "Gray or White.  
+The Z1L Flip is a sporty looking LTE foldable phone that offers users 4G communication.
+
+VoLTE Suppor , BANDS
+
+4G: 2/4/5/8/12/13/17/28AB/66
+3G: 2/4/5
+2G: 850/900/1800/1900 MHz , SCREEN
+
+Size: 2.4” & 1.77” TFT
+240×320 & 128×160
+4:3 Aspect ratio , CONNECTIONS
+
+USB Type-C
+3.5mm Audio Jack
+SIM Card: Dual Nano SIM (4FF) , MEMORY
+
+ROM: 256MB
+RAM: 48MB>
+Micro SD: Up to: , CONNECTIVITY
+
+BT: 5.0 , BATTERY
+
+Capacity: 1,000mAh
+Li-ion , CAMERA
+
+VGA + Flash , MULTIMEDIA
+
+Music and Video Player
+FM Radio . EXTRAS
+
+Video Recorder
+Loudspeaker
+Browser , PROCESSOR
+
+Chipset: T107
+UNISOC"
+  image: "images/LOGIC-Z1L-Flip_8060_1.png"
+
+- id: 27       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Sky Elite Octax Tablet , 8.0 in ,WiFi Only, 32GB , New , Sealed"
+  category: "Tablet"
+  price: 179.95
+  description: "Black. Display: 8-inch HD IPS screen with a resolution of 1280 x 800.
+Processor: 2.0 GHz Octa-Core CPU. Some models may have a 1.6 GHz processor.
+Memory and storage: 32GB of internal storage, paired with either 1GB or 3GB of RAM, depending on the specific model.
+Operating system: Typically runs on Android 11.
+Connectivity: Supports Wi-Fi and 4G connectivity, making it suitable for both home and on-the-go use. Some variants may offer dual SIM support.
+Battery: 4000mAh battery.
+Cameras: 5MP rear camera and a 2MP front camera.
+Accessories: Often bundled with a protective silicone case and screen protector"
+  image: "images/sky_elite_oxtax_tab_wtihout_case__97220.jpg"
+
+
+- id: 28      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed"
+  category: "Tablet"
+  price: 249.95
+  description: "Silver. 4GB of Ram
+  Unlocked
+  8.7 inches
+  Android 13 with One UI 5.1
+  Rear camera is 8MP
+  Front Camera is 2MP
+  5100 mAh Battery                                            
+  image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed.jpg"
+ 
+
+- id: 29
+  name: "Consumer Cellular Plan"
+  category: "Plan"
+  price: 45.95
+  description: "Unlimited Talk/Txt/20GB Data 1 Line Included Unlimited Data Unlimited Talk & Text $45/Month $45 due monthly . ."
+  image: "images/tecno_spark_30c_black__28400.jpg"
