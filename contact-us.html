@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us — NewRock Wireless</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'nrw-bg-blue': '#1e40af',
+            'nrw-text-red': '#dc2626',
+            'nrw-btn-blue': '#3b82f6'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+  </style>
+</head>
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <header class="nrw-bg-blue shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <div class="flex-shrink-0">
+          <a href="/newrock-wireless/" class="text-3xl font-extrabold nrw-text-red tracking-tight" style="line-height: 1;">
+            NewRock<span class="text-blue ml-0.5">Wireless</span>
+          </a>
+        </div>
+
+        <nav class="hidden md:flex space-x-4">
+          <a href="/newrock-wireless/" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Home</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Plan')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Plan</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Internet Service')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Internet Service</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Tablet')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Tablet</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Phone')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Phone</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'WiFi')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">WiFi</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Headsets & Earbuds')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Headsets & Earbuds</a>
+          <a href="/newrock-wireless/" onclick="app.setView('home', 'Smart Watches')" class="text-blue hover:text-red-300 px-3 py-2 rounded-md text-sm font-medium transition duration-150">Smart Watches</a>
+        </nav>
+
+        <div class="flex items-center">
+          <button id="cartButton" onclick="app.setView('cart')" class="relative p-2 rounded-full text-blue nrw-text-red nrw-btn-blue hover:text-blue transition duration-150 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path>
+            </svg>
+            <span id="cartCount" class="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-blue transform translate-x-1/2 -translate-y-1/2 nrw-bg-red rounded-full">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <h1 class="text-2xl font-bold mb-4">Contact Us</h1>
+    <p class="mb-4">Have questions? We're here to help!</p>
+
+    <ul class="space-y-2 mb-6">
+      <li><strong>Email</strong>: <a href="mailto:support@newrockwireless.com" class="text-blue-600 hover:underline">50stateswireless@gmail.com</a></li>
+      <li><strong>Phone</strong>: 855-948-3686</li>
+      <li><strong>Hours</strong>: Mon–Fri, 9 AM – 6 PM EST</li>
+    </ul>
+
+    <p class="italic">newrockwireless.com</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white mt-12">
+    <div class="max-w-7xl mx-auto py-6 px-4 text-center text-sm">
+      &copy; 2025 NewRock Wireless. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const count = localStorage.getItem('cartCount');
+      if (count) {
+        document.getElementById('cartCount').textContent = count;
+      }
+    });
+  </script>
+
+</body>
+</html>

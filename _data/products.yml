@@ -1,0 +1,318 @@
+#- id: 5       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+#  name: "PRODUCT NAME HERE"
+#  category: "CATAGORY HERE"
+#  price: 45.00
+#  description: "DESCRIPTION HERE"
+#  image: "URL OR PATH TO PRODUCT IMAGE HERE"
+
+#- id: 13    # This entry is just a template for varients below (color picker)
+  #- name: "RockPhone 15 Pro Max"
+  #- category: "Phone"
+  #- description: "Flagship smartphone with triple-lens camera system and A18 Bionic chip."
+  #- variants:
+  #-   - id: 301
+  #-     color: "Blue"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-    image: "images/bluephone.jpeg"
+  #-   - id: 302
+  #-     color: "Black"
+  #-     price: 999.00
+  #-     inStock: true/false
+  #-     image: "images/blackphone.webp"
+  #-   - id: 303
+  #-     color: "Silver"
+  #-    price: 1049.00  # maybe premium color costs more
+  #-     inStock: true/false
+  #-     image: "images/silverphone.webp"
+
+- id: 1
+  name: "Verizon Home Internet 300 Mbps"
+  category: "Internet Service"
+  price: 34.95
+  description: "Up to 300 Mbps speeds Download and upload speeds of up to 300 Mbps Availability varies. Wired speeds advertised. Wireless speeds may vary due to device limits, multiple users, network & other factors. See Verizon.com/yourspeed for more info. Router included at no additional cost State-of-the art router featuring the latest Wi-Fi generation, Wi-Fi 6E, that provides more spectrum for increased speeds, better coverage, lower latency, built-in security, parental controls and more. Verizon owns the router included with your plan. If you choose to disconnect service, you must return equipment within 30 days, or you'll incur charges. 3-year price lock guarantee** So you don’t need to worry about unexpected price hikes. **For new and existing myHome customers. Applies only to the then-current base monthly rate exclusive of any other setup and additional equipment charges, discounts or promotions, plan perk and any other third-party services. ."
+  image: "images/71M1Kxq7HHL.jpg"
+
+- id: 2
+  name: "Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed"
+  category: "Tablet"
+  price: 249.95
+  description: "New Sealed 4GB of Ram Cellular Unlocked 8.7 inches Android 13 with One UI 5.1 Rear camera is 8MP Front Camera is 2MP 5100 mAh Battery."
+  image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed"
+
+- id: 3
+  name: "Samsung Galaxy S25 Plus, 256GB 5G . Unlocked, Dual Sim , New , Sealed"
+  category: "Phone"
+  price: 949.95
+  description: "specifications: Colors Mint , Navy , Silver Shadow 
+
+    Display: 6.7-inch Dynamic LTPO AMOLED 2X, with 3120x1440 resolution, 120Hz refresh rate, and 2600 nits peak brightness.
+    Processor: Qualcomm Snapdragon 8 Elite for Galaxy.
+    RAM: 12GB.
+    Storage: 256GB or 512GB, non-expandable via card slot.
+    Cameras:
+        Rear: 50MP wide-angle lens, 10MP telephoto lens with 3x optical zoom, and 12MP ultra-wide-angle lens. It is capable of 8K video recording at 30fps.
+        Front: 12MP wide-angle lens, capable of 4K video at 60fps.
+    Battery: 4,995mAh, with 45W wired charging and 15W wireless charging.
+    Software: Android 15 with One UI 7, and is promised 7 years of software and security updates.
+    Durability: IP68 dust/water resistant with an aluminum frame. ."
+  image: "images/Samsung Galaxy S25 128GB 5G Unlocked by Samsung, Dual Sim New Sealed"
+
+- id: 4
+  name: "XNET WIFI Data Plans 25GB"
+  category: "WiFi"
+  price: 65.95
+  description: "ata Plans Get reliable high-speed data wherever you need it — at home, on the road, or off the grid. 4G Data Plans 25 GB Great for travel or backup internet As Low As: $65 $52/mo for prepayment of 12 months Pricing shown is based on advance annual payment. “As low as” price reflects a 20% discount for prepayment of 12 months. Standard monthly price is $65 when billed month-to-month. 25 GB of high-speed LTE data Cancel anytime - no contracts Pay monthly, or save with upfront payments Save 5% when you pay for 3 months in advance Save 10% when you pay for 6 months in advance Save 20% when you pay for 12 months in advance "
+  image: "images/Xnet-Wifi.jpeg"
+
+- id: 5
+  name: "XNET WIFI Xplorer Hotspot 50 GB X Data Plan"
+  category: "WiFi"
+  price: 75.95
+  description: "Xplorer Hotspot The Xplorer Hotspot is your pocket-sized powerhouse for fast, reliable internet anywhere. With LTE Cat 6 speeds, dual-band Wi-Fi, and support for up to 16 devices, it’s perfect for travel, work, or staying connected off the grid. Want to receive your device pre-activated? Click here to purchase a Device + Data Plan bundle $199.00 Original price was: $199.00.$149.00 Current price is: $149.00. 50 GB X Data Plan Data Plan * Clear 50 GB of High-Speed Data $75.00 / month Activation Activation Fee To activate your vSIM and facilitate this service, a one-time Activation Fee is required. This fee is necessary to cover the costs involved in initiating the activation process with the carriers, generating usage reports, and maintaining the necessary infrastructure for continued connectivity. $30.00 $229.00 $179.00 one time, and $75.00 / month."
+  image: "images/Xnet-Wifi-.jpeg"
+
+- id: 6
+  name: "Verizon Home Internet 1GIG"
+  category: "Internet Service"
+  price: 99.95
+  description: "$99.99/Mo* 1Gig includes: Verizon Fios 1 Gig Fixed Broadband Consumer Disclosure Monthly Price $99.99 This Monthly Price is not an introductory rate. This Monthly Price does not require a monthly contract. Additional Charges & Terms Provider Monthly Fees NY Municipal Construction Surcharge $2.49 One-time Fees at the Time of Purchase Professional Installation $95 Deposit based on credit check $0 to $250 Late Fee $9 or 1.5% of past due balance (whichever is greater), as permitted by law Early Termination Fee None Government Taxes Included Discounts & Bundles Click here for available discounts and pricing options for broadband service bundled with other services like video, phone and wireless service, and use of your own equipment like modem and routers. Auto Pay and Paper-free Billing: $10 Speeds provided with Plan Typical Download Speed 938.62 Mbps Typical Upload Speed 865.01 Mbps Typical Latency 4.19 ms Data Included with Monthly Price Unlimited Charges for Additional Data Usage None Network Management Read our Policy Privacy Read our Policy Customer Support www.verizon.com/support/contact-us 800-837-4966 Learn more about the terms used on this label by visiting the Federal Communications Commission's Consumer Resource Center. fcc.gov/consumer F0030488753CR3583000000001 . . ."
+  image: "images/71M1Kxq7HHL.jpg"
+
+- id: 7
+  name: "Tecno Spark Go 1S , 64GB , Dual Sim , 6.67-inch , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 219.95
+  description: "Colors Black ,White  Processor: MediaTek Helio G50 octa-core chipset RAM and storage: 3GB RAM and 64GB of internal storage. The storage is expandable via a microSDXC card. Display: A 6.67-inch IPS LCD with a 90Hz refresh rate and a resolution of 720 x 1600 pixels. Cameras: 13MP main rear camera with phase detection autofocus (PDAF) and a dual LED flash. The front-facing camera is 8MP and also has a flash. Battery: A 5,000mAh battery that supports 15W fast charging via a USB Type-C port. Operating system: Android 14 (Go edition) with Tecno's HiOS 14. Other features: Dual SIM support, IPX4 water resistance, rear-mounted fingerprint sensor, and facial recognition for security"
+  image: "images/tecno_spark_go_1s_black__76702.jpg"
+
+- id: 8
+  name: "XNET WIFI Xplorer Hotspot 100GB X Data Plan"
+  category: "WiFi"
+  price: 85.95
+  description: "Xplorer Hotspot The Xplorer Hotspot is your pocket-sized powerhouse for fast, reliable internet anywhere. With LTE Cat 6 speeds, dual-band Wi-Fi, and support for up to 16 devices, it’s perfect for travel, work, or staying connected off the grid. 💵 Flexible payment options available at checkout with PayPal Buy Now, Pay Later Want to receive your device pre-activated? Click here to purchase a Device + Data Plan bundle $199.95 Original price was: $199.00.$149.00Current price is: $149.00. 100 GB Pay-As-You-Go Plan 💸 One-time payment. No auto-renewal. Data * Duration * Clear Get 100 GB of high-speed data for 1 Month. One-time payment, no auto-renewal. PayPal & Buy Now, Pay Later available. $85.00 $284.00 $234.00 ."
+  image: "images/Xnet-Wifi--.jpeg"
+
+- id: 9
+  name: "Friggs Mobile Plan"
+  category: "Plan"
+  price: 30.95
+  description: "High speed data: A new generation of wireless carrier $30.00/mo 3 GB of 5G/4G high speed data Unlimited nationwide talk & text Bitcoin rewards every month Plan Details > 3 GB InternetDrop 3GB of 5G/4G high speed data Data speed reduces after 3GB 3GB Mobile HotSpot included Calling & TextingDrop Unlimited nationwide talk & text WiFi calling included eSIMDrop Bring your own device, unlocked and compatible ConditionsDrop No contract duration CashbackDrop Get 5% Bitcoin cashback on your monthly service fee. Get 10% cashback by adding plans for family or friends. Rewards are deposited into your fliggs wallet, you can choose to receive them in Bitcoin, Digital USD or another currencies. Wallet access made simple and secure. Broadband factsDrop The smarter choice. Stop overpaying, start saving. Choose an affordable mobile plan with low, guaranteed prices. Change or cancel your plan anytime, every month. You are in full control. Enjoy the fastest 5G network. Enjoy premium wireless on the fastest and largest 5G network in the US. All plans include 5G Ultra at no extra cost, which means you will get even faster 5G speeds. Get monthly Bitcoin cashback. Get back 5% to 10% of your service fee every month. The cashback is deposited in your fliggs wallet in Bitcoin or digital USD. Mobile plans that pay you back Earn a share of your service fee in Bitcoin, every month. Bitcoin Bitcoin Surf the fastest 5G network 0 0 0 Easy to use. 1 Install the fliggs mobile app from Google Play Store or Apple App Store. 2 Bring your own phone, compatible and unlocked. 3 Pick your plan, transfer your number or request a new one. Stay connected anytime, everywhere. bgImage Play Enjoy serious data privacy. 1 We do not exploit your information. We do not sell your data. 2 We apply the most robust data standards, across the entire nation. 3 We guard your personal data, and our commitment to privacy remains absolute. You'll love fliggs Our partnerships 5g network r17 aws icon logo Want to stay up to date? Sign up for the fliggs newsletter. Email Address Get the fliggs app. appStoreIcon appStoreIcon Features 5G Coverage Bring your own phone Bitcoin rewards Wallet Roaming packages Data boosters eSIM WiFi calling Mobile Hotspot Support FAQ Web3 Glossary About fliggs News Why fliggs Contact us TWITTER icon LINKEDIN icon INSTAGRAM icon FACEBOOK icon © 2025 fliggsmobile.com Privacy Policy Terms & Conditions Wallet Terms & Conditions Accessibility Acceptable Use Policy 911 and E911 disclosure Do not sell or share my Information .."
+  image: "images/galaxy-a36-black-11321.jpg"
+
+- id: 10
+  name: "Consumer Cellular Plan"
+  category: "Plan"
+  price: 45.95
+  description: "Unlimited Talk/Txt/20GB Data 1 Line Included Unlimited Data Unlimited Talk & Text $45/Month $45 due monthly . ."
+  image: "images/tecno_spark_30c_black__28400.jpg"
+
+- id: 11
+  name: "AT&T Unlimited Plan Apple iPhone 17 Pro Max - 1TB"
+  category: "Plan"
+  price: 133.93
+  description: "Due monthly* $133.93 Due today $142.00 *Plus taxes and fees.See disclosures Your services will auto-renew monthly at then-current rates (less any discounts or promotions) unless you cancel by visiting att.com/cancel-info. Price details Due monthly $133.93 Apple iPhone 17 Pro Max - 1TB $44.45 Price for 36 mos. at 0% APR ONLINE ONLY: You will get an additional $200 in monthly bill credits ($5.56/mo. for 36 months) with new voice on elig. unlimited plan (speed restr's apply). Credits start within 3 bills. AT&T Unlimited Premium® PL plan See discounts $85.95 AT&T Administrative/Regulatory Cost Recovery Fee $3.49 Government taxes and additional AT&T fees extra. See details Due only on first bill $0.00 Activation fee $0.00 Due today $142.00 Next-day shipping fee FREE Apple iPhone 17 Pro Max - Deep Blue - 1TB Estimated device sales tax $142.00 Savings & promotions AutoPay and paperless billing discount . Billed monthly."
+  image: "images/iphone_17_pro_max_orange___13601.jpg"
+
+- id: 12
+  name: "TECNO Spark 30C , 256GB , 4G , 6.67 inches , Unlocked ,New , Sealed "
+  category: "Phone"
+  price: 249.95
+  description: " Colors Black  Key features
+
+Display: A 6.67-inch IPS LCD with a 720p HD+ resolution and a smooth 120Hz refresh rate. Some variants may have a 6.6-inch screen with a 90Hz refresh rate and a 720p resolution.
+    Performance: Powered by a MediaTek Helio G81 chipset (or G70 for some variants) and comes with up to 8GB of RAM, depending on the model. Virtual RAM expansion is also a feature.
+    Camera: It has a dual-camera system on the back with a 50MP main sensor and an auxiliary lens. The front camera is 8MP and can shoot video at 1080p@30fps.
+    Battery and charging: The device is powered by a large 5,000mAh non-removable battery and supports 18W wired charging. A full charge may take around 2 hours.
+    Storage: The Spark 30C is available with different storage options, including 128GB and 256GB of internal storage, which is expandable via a microSDXC card.
+    Audio: Includes a 3.5mm headphone jack and stereo speakers.
+    Operating system: It runs on Android 14 with Tecno's HiOS skin. Some variants are specified with Android 12 and HiOS 8.6.
+    Other features: The phone has a side-mounted fingerprint sensor, an IR blaster for controlling appliances, and an IP54 rating for dust and splash resistance"
+  image: "images/tecno_spark_30c_white__64972.jpg"
+
+- id: 13
+  name: "Samsung Galaxy A03S ,32GB , 4G LTE , 6.5in , unlocked ,New , Sealed "
+  category: "Phone"
+  price: 209.95
+  description: " Colors Black According to Samsung's official website and other sources, the Samsung Galaxy A03s
+has the following specifications: 
+
+    Display: 6.5-inch HD+ PLS LCD (1600 x 720 resolution) with a standard 60Hz refresh rate.
+    Processor: MediaTek Helio P35 Octa-Core clocked at 2.3 GHz.
+    Memory and storage: 3GB or 4GB of RAM and 32GB or 64GB of internal storage, expandable up to 1TB via a microSD card.
+    Battery: 5,000mAh with 15W wired charging support.
+    Rear cameras: Triple camera system with a 13MP main lens, a 2MP macro lens, and a 2MP depth sensor.
+    Front camera: 5MP front-facing camera.
+    Connectivity: 4G LTE, Wi-Fi 802.11 b/g/n, and Bluetooth 5.0. It also includes a 3.5mm headphone jack.
+    Operating system: Launched with Android 11 and was upgradable to Android 13, but is no longer receiving major OS updates.
+    Security: Side-mounted fingerprint sensor and facial recognition..."
+  image: "images/51m45B3Yy+L.jpg"
+
+- id: 14       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "ZTE Nubia Focus 6.5inch , 5G LTE 4GB+256GB ,Dual Sim , New , Sealed"
+  category: "Phone"
+  price: 289.95
+  description: "Colors Black   According to ZTE and GSMArena, the Nubia Focus 5G, released in early 2024, has the following specifications: 
+
+    Dimensions: 163.6 x 74.9 x 8.6 mm.
+    Weight: 205.5 g.
+    Display: 6.6-inch IPS LCD with a 120Hz refresh rate and 1612 x 720 HD+ resolution.
+    Processor: Unisoc T760 (6nm).
+    RAM: Up to 16GB dynamic RAM (6GB + 10GB extended).
+    Storage: 256GB UFS 3.1.
+    Rear Camera: Dual 108MP (wide) + 2MP (depth).
+    Front Camera: 5MP (software-enhanced to 8MP).
+    Battery: 5,000mAh with 22.5W fast charging.
+    Operating System: Android 13 or 14, depending on the region.
+    Connectivity: 5G, Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.0, NFC.
+    Ports: USB Type-C, 3.5mm audio jack.
+    Other features: Side fingerprint sensor, Live Island interactive notification display.  . ."
+  image:  "images/nabia_focus__55629.jpg"
+
+- id: 15       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "ZTE Nubia Focus Pro, 6.7inch , 5G LTE ,256GB , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 339.95
+  description: " Colors Black,Cream  Here is a detailed breakdown of the specifications for the nubia Focus Pro 5G, according to ZTE's official website and sources like GSMArena. 
+
+    Dimensions: 166 x 76.1 x 8.5 mm.
+    Weight: 206 g.
+    Display: 6.72-inch IPS LCD with a 120Hz refresh rate and 1080 x 2400 FHD+ resolution.
+    Processor: Unisoc T760 (6nm).
+    Memory and storage: 8GB of LPDDR4X RAM with up to 12GB of additional dynamic RAM, and 256GB of UFS 3.1 storage.
+    Rear cameras:
+        Main: 108MP with f/1.7 aperture, Phase Detection Autofocus (PDAF), and Optical Image Stabilization (OIS).
+        Ultrawide: 5MP.
+        Depth: 2MP.
+    Front camera: 32MP.
+    Battery: 5,000mAh non-removable.
+    Charging: 33W wired fast charging.
+    Operating system: Launched with Android 13 and MyOS 13.
+    Connectivity: 5G, Wi-Fi 802.11 a/b/g/n/ac, Bluetooth 5.2, and NFC.
+    Ports: USB Type-C, but no 3.5mm headphone jack.
+    Additional features:
+        Camera controls: A physical sliding shortcut key for quick access to camera functions and a capacitive capture button.
+        Live Island: Interactive notification area for important alerts.
+        Biometrics: Side-mounted fingerprint sensor"
+  image: "images/612Q5004-IL.jpg"  
+
+- id: 16       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "JBL Tune Flex Active Noise Cancelling Wireless Earbuds"
+  category: "Headsets & Earbuds"
+  price: 149.95
+  description: " White or Blue. JBL Pure Bass Sound: Smartly designed 12mm drivers enhanced by the stick form factor deliver JBL's Pure Bass Sound so you'll feel every pulsing beat.
+Active Noise Cancelling with Smart Ambient: Hear more of what you want, less of what you don't. Active Noise Cancelling technology with 2 microphones lets you minimize audio distractions. With Ambient Aware, you can tune into your surroundings at any time so that you feel safer when you're out in the world, while TalkThru lets you stop for a quick chat without having to remove your headphones. "
+  image: "images/0-1.jpeg"
+
+- id: 17
+  name: "Apple iPad A16 !1th Generation 128GB, WiFi Only"
+  category: "Tablet"
+  description: "11-INCH LIQUID RETINA DISPLAY—The gorgeous Liquid Retina display is an amazing way to watch movies or draw your next masterpiece.¹ True Tone adjusts the display to the color temperature of the room to make viewing comfortable in any light.
+    PERFORMANCE AND STORAGE—The superfast A16 chip delivers a boost in performance for your favorite activities. And with all-day battery life, iPad is perfect for playing immersive games and editing photos and videos.² Storage starts at 128GB and goes up to 512GB.³
+    IPADOS + APPS—iPadOS makes iPad more productive, intuitive, and versatile. With iPadOS, run multiple apps at once, use Apple Pencil to write in any text field with Scribble, and edit and share photos."
+  variants:
+    - id: 301
+      color: "Blue"
+      price: 469.95
+    # minStock: true/false
+      image: "images/Apple-iPad-A16-11th-Gen-Blue.jpg"
+    - id: 302
+      color: "Silver"
+      price: 469.95
+    # minStock: true/false
+      image: "images/Apple-iPad-A16-11th-Gen-Silver.jpg"
+    - id: 303
+      color: "Pink"
+      price: 469.95  # maybe premium color costs more
+    # minStock: true/false
+      image: "images/Apple-iPad-A16-11th-Gen-Pink.jpeg"
+
+
+- id: 18       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Soundcore P30i, By Anker Earbuds , New ,Sealed"
+  category: "Headsets & Earbuds"
+  price: 99.95
+  description: " White or Powder Blue. JBL Pure Bass Sound: Smartly designed 12mm drivers enhanced by the stick form factor deliver JBL's Pure Bass Sound so you'll feel every pulsing beat.
+Active Noise Cancelling with Smart Ambient: Hear more of what you want, less of what you don't. Active Noise Cancelling technology with 2 microphones lets you minimize audio distractions. With Ambient Aware, you can tune into your surroundings at any time so that you feel safer when you're out in the world, while TalkThru lets you stop for a quick chat without having to remove your headphones. "
+  image: "images/0-2.jpeg"
+
+- id: 19       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Apple Watch Ultra 3, 49mm, New , Sealed"
+  category: "Smart Watches"
+  price: 899.95
+  description: "Black. The Apple Watch Ultra 3 
+builds on its predecessor with a few notable improvements, including enhanced connectivity and a better display. Key features include: 
+
+    Satellite communications: A major new feature for the Ultra 3
+    is built-in satellite connectivity. This allows you to send an Emergency SOS, send messages, and share your location via the Find My app even when you are off the grid without cellular or WiFi.
+    Upgraded display: The Always-On Retina display is now wide-angle LTPO3 OLED technology, which is more power-efficient and offers better viewing angles. It features a slightly larger screen area due to smaller bezels, a higher refresh rate for the always-on mode, and reaches a peak brightness of 3,000 nits.
+    Longer battery life: The Ultra 3
+    offers up to 42 hours of battery life with normal use, an improvement over the Ultra 2's 36 hours. In Low Power Mode, it can last for up to 72 hours. It also supports faster charging.
+    5G connectivity: It supports 5G cellular for improved network performance in areas with coverage.
+    Advanced health features: New health features arriving with watchOS 26 include hypertension notifications an"
+  image: "images/Apple-Watch-Ultra-3-49mm.jpg"
+
+- id: 20      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Maxwest Vice 4G Flip Phone , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 119.95
+  description: " Black, Blue, silver
+
+    Design: Flip-style phone with a durable plastic body.
+    Displays:
+        Main Display: 2.8-inch TFT screen.
+        External Display: 1.8-inch screen for viewing notifications, incoming calls, and messages without opening the phone.
+    Camera: 2MP rear camera with flash.
+    Memory: 64MB RAM and 128MB internal memory, expandable via a microSD card.
+    Connectivity:
+        Network: 4G LTE and VoLTE technology for clear calls.
+        Wireless: Bluetooth.
+        Ports: USB-C for charging.
+    Special features:
+        SOS button: A dedicated button for emergencies.
+        Dual SIM: Supports two nano-SIM cards.
+        Other features: FM radio.
+    Compatibility: Works with GSM networks like T-Mobile and AT&T but is not compatible with the Verizon network."
+  image: "images/maxwest_vice_black__53943.jpg"
+
+- id: 21       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: " Maxwest Ranger , 4G ,32GB , Unlocked , New , Sealed"
+  category: "Phone"
+  price: 119.95
+  description: " Black. This feature phone is built for durability and includes a number of basic communication  features. 
+
+    Design and display: It features a 2.4-inch color display and a physical keypad.
+    Durability: The phone is rugged, with a build that is resistant to water, dust, and shocks. It is designed for outdoor use or demanding job site conditions.
+    Connectivity: This is a 4G LTE-enabled unlocked phone compatible with GSM carriers like T-Mobile and AT&T.
+    Storage: The phone has only 128MB of internal storage, but can hold a microSD card of up to 32GB to store files.
+    Special features: A standout feature is its 4000mAh battery that can be used as a power bank to charge other devices. It also includes a flashlight"
+  image: "images/maxwest_ranger_black__72703.jpg"
+
+- id: 22       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Maxwest NEO M1 Candy Bar Phone ,Unlocked ,New , Sealed"
+  category: "Phone"
+  price: 109.95
+  description: "Blue, Black and Gray Candy bar smartphone
+ 3x flash
+ 1.77” screen
+ Dual sim
+ Camera
+ Fm radio
+ GSM quad band
+ Unlocked
+ Overseas
+ Here works with H2O and Ultra"
+  image: "images/maxwest-NEO-M1-Mobile-aPhone-User-Manual_1-185x300.jpg"
+
+- id: 23       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
+  name: "Maxwest Uno Clam X1, 1.8'inch ,Unlocked , New, Sealed"
+  category: "Phone"
+  price: 109.95
+  description: "Colors Black, Blue , Red , Gold.   Form Factor: The classic clamshell (flip) design protects the    screen and keypad.
+  Screen: 1.8-inch display.
+  Carrier: Sold as an unlocked device, compatible with most GSM carriers.
+  Network: Supports quad-band GSM (850/900/1800/1900), and some versions may support WCDMA for 3G networks.
+  SIM: Available with either a single or dual SIM card slot.
+  Storage: Includes a microSD card slot for expandable storage (often up to 8GB).
+  Multimedia: Features a basic VGA camera, Bluetooth connectivity, and GPRS/WAP support"
+  image: "images/71mNOZ4dT5L-_AC_SL1500___30335.jpg"
