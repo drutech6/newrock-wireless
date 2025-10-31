@@ -340,7 +340,6 @@ Speed & Power: Qualcomm Snapdragon® 750G.
 Memory: 6GB RAM, 64GB internal storage, Micro SD support up to 512GB."
   image: "images/orbic_myra_5g__43224.jpg"
 
-
 - id: 25      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Orbic Tabet 10R , 5G , 128GB , WIFI , New , Sealed"
   category: "Tablet"
@@ -362,7 +361,6 @@ Memory: 6GB RAM, 64GB internal storage, Micro SD support up to 512GB."
         Positive: Some users praise the fast 5G speeds, portability, and ease of setup. It’s seen as a reliable solution for those who need constant high-speed internet on the go.
         Negative: Other users report issues with battery life, random shutdowns, and connectivity problems, particularly in areas with competing Wi-Fi 6 devices. There have also been complaints about faulty batteries and difficulty obtaining replacements"
   image: "images/Tab10_new_2520x.jpg"
-
 
 - id: 26       #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Logic Z1L Flip Phone , 4G , Dual Sim , Unlocked , New , Sealed"
@@ -421,7 +419,6 @@ Cameras: 5MP rear camera and a 2MP front camera.
 Accessories: Often bundled with a protective silicone case and screen protector"
   image: "images/sky_elite_oxtax_tab_wtihout_case__97220.jpg"
 
-
 - id: 28      #ID MUMBER HERE-CHANGE TO AVOID DUPLICATION
   name: "Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB , WiFi, New, Sealed"
   category: "Tablet"
@@ -434,11 +431,3 @@ Accessories: Often bundled with a protective silicone case and screen protector"
   Front Camera is 2MP
   5100 mAh Battery                                            
   image: "images/Samsung Galaxy Tab A9 (Sm-x115) 8.7inch 64GB Cellular, New, Sealed.jpg"
- 
-
-- id: 29
-  name: "Consumer Cellular Plan"
-  category: "Plan"
-  price: 45.95
-  description: "Unlimited Talk/Txt/20GB Data 1 Line Included Unlimited Data Unlimited Talk & Text $45/Month $45 due monthly . ."
-  image: "images/tecno_spark_30c_black__28400.jpg"
